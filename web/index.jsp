@@ -87,8 +87,8 @@
                         <i class="far fa-user icon"></i>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Register</a>
-                        <a class="dropdown-item" href="#">Login</a>
+                        <a class="dropdown-item" href="register.html">Register</a>
+                        <a class="dropdown-item" href="login.html">Login</a>
                     </div>
                 </div>
             </li>
@@ -328,7 +328,7 @@
                                                aria-hidden="true"></i>
                                         </div>
                                         <div class="col-lg-6 col-md-12 col-6"><a href="#"
-                                                                                 class="AddCart btn btn-dark"><i
+                                                                                 class="AddCart btn btn-outline-success"><i
                                                 class="fa fa-shopping-cart" aria-hidden="true"></i> Add To Cart</a>
                                         </div>
                                     </div>
@@ -361,7 +361,7 @@
                                                aria-hidden="true"></i>
                                         </div>
                                         <div class="col-lg-6 col-md-12 col-6"><a href="#"
-                                                                                 class="AddCart btn btn-dark"><i
+                                                                                 class="AddCart btn btn-outline-success"><i
                                                 class="fa fa-shopping-cart" aria-hidden="true"></i> Add To Cart</a>
                                         </div>
                                     </div>
@@ -394,7 +394,7 @@
                                                aria-hidden="true"></i>
                                         </div>
                                         <div class="col-lg-6 col-md-12 col-6"><a href="#"
-                                                                                 class="AddCart btn btn-dark"><i
+                                                                                 class="AddCart btn btn-outline-success"><i
                                                 class="fa fa-shopping-cart" aria-hidden="true"></i> Add To Cart</a>
                                         </div>
                                     </div>
@@ -418,13 +418,13 @@
         </div>
         <div class="col-lg-4 col-md-4 col-4 hidden-xsd-none d-sm-block justify-content-start">
             <div class="controls float-right container mr-4">
-                <a class="left fa fa-chevron-left btn btn-light " href="#product-slider-bootstrap" data-slide="prev"></a>
-                <a class="right fa fa-chevron-right btn btn-light" href="#product-slider-bootstrap" data-slide="next"></a>
+                <a class="left fa fa-chevron-left btn btn-light " href="#product-slider-bootstrap2" data-slide="prev"></a>
+                <a class="right fa fa-chevron-right btn btn-light" href="#product-slider-bootstrap2" data-slide="next"></a>
             </div>
         </div>
     </div>
 
-    <div id="product-slider-bootstrap" class="carousel slide hidden-xsd-none d-sm-block"
+    <div id="product-slider-bootstrap2" class="carousel slide hidden-xsd-none d-sm-block"
          data-ride="carousel" data-type="multi">
         <div class="carousel-inner">
             <div class="item active carousel-item">
@@ -623,7 +623,7 @@
                                                aria-hidden="true"></i>
                                         </div>
                                         <div class="col-lg-6 col-md-12 col-6"><a href="#"
-                                                                                 class="AddCart btn btn-dark"><i
+                                                                                 class="AddCart btn btn-outline-success"><i
                                                 class="fa fa-shopping-cart" aria-hidden="true"></i> Add To Cart</a>
                                         </div>
                                     </div>
@@ -656,7 +656,7 @@
                                                aria-hidden="true"></i>
                                         </div>
                                         <div class="col-lg-6 col-md-12 col-6"><a href="#"
-                                                                                 class="AddCart btn btn-dark"><i
+                                                                                 class="AddCart btn btn-outline-success"><i
                                                 class="fa fa-shopping-cart" aria-hidden="true"></i> Add To Cart</a>
                                         </div>
                                     </div>
@@ -689,7 +689,7 @@
                                                aria-hidden="true"></i>
                                         </div>
                                         <div class="col-lg-6 col-md-12 col-6"><a href="#"
-                                                                                 class="AddCart btn btn-dark"><i
+                                                                                 class="AddCart btn btn-outline-success"><i
                                                 class="fa fa-shopping-cart" aria-hidden="true"></i> Add To Cart</a>
                                         </div>
                                     </div>
@@ -714,13 +714,13 @@
             </div>
             <div class="col-lg-4 col-md-4 col-4 hidden-xsd-none d-sm-block justify-content-start">
                 <div class="controls float-right container mr-4">
-                    <a class="left fa fa-chevron-left btn btn-light " href="#product-slider-bootstrap" data-slide="prev"></a>
-                    <a class="right fa fa-chevron-right btn btn-light" href="#product-slider-bootstrap" data-slide="next"></a>
+                    <a class="left fa fa-chevron-left btn btn-light " href="#product-slider-bootstrap3" data-slide="prev"></a>
+                    <a class="right fa fa-chevron-right btn btn-light" href="#product-slider-bootstrap3" data-slide="next"></a>
                 </div>
             </div>
         </div>
 
-        <div id="product-slider-bootstrap" class="carousel slide hidden-xsd-none d-sm-block"
+        <div id="product-slider-bootstrap3" class="carousel slide hidden-xsd-none d-sm-block"
              data-ride="carousel" data-type="multi">
             <div class="carousel-inner">
                 <div class="item active carousel-item">
@@ -919,7 +919,7 @@
                                                    aria-hidden="true"></i>
                                             </div>
                                             <div class="col-lg-6 col-md-12 col-6"><a href="#"
-                                                                                     class="AddCart btn btn-dark"><i
+                                                                                     class="AddCart btn btn-outline-success"><i
                                                     class="fa fa-shopping-cart" aria-hidden="true"></i> Add To Cart</a>
                                             </div>
                                         </div>
@@ -952,7 +952,7 @@
                                                    aria-hidden="true"></i>
                                             </div>
                                             <div class="col-lg-6 col-md-12 col-6"><a href="#"
-                                                                                     class="AddCart btn btn-dark"><i
+                                                                                     class="AddCart btn btn-outline-success"><i
                                                     class="fa fa-shopping-cart" aria-hidden="true"></i> Add To Cart</a>
                                             </div>
                                         </div>
@@ -985,7 +985,7 @@
                                                    aria-hidden="true"></i>
                                             </div>
                                             <div class="col-lg-6 col-md-12 col-6"><a href="#"
-                                                                                     class="AddCart btn btn-dark"><i
+                                                                                     class="AddCart btn btn-outline-success"><i
                                                     class="fa fa-shopping-cart" aria-hidden="true"></i> Add To Cart</a>
                                             </div>
                                         </div>

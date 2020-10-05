@@ -1,0 +1,121 @@
+
+.modal-content
+{
+    background-color: #ffffff;
+    opacity: .8;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+.user-img
+{
+    margin-top: -70px;
+    margin-bottom: 45px;
+}
+.form-group
+{
+    margin-bottom: 25px;
+}
+.form-group input
+{
+    height: 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding-left: 54px;
+}
+.form-group input:focus
+{
+    border:3px solid #4d3894;
+}
+#email::before , #username::before , #password::before
+{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 1000;
+    position: absolute;
+    left: 26px;
+    padding-top: 11px;
+    color: #555e60;
+}
+
+#password::before
+{
+    content: "\f023";
+}
+#email::before
+{
+    content: "\f1fa";
+}
+
+#username::before
+{
+    content: "\f007";
+}
+
+.form-input button
+{
+    width: 40%;
+    margin: 5px 0 25px;
+    opacity: 1;
+}
+
+.btn-light
+{
+    background-color: #6e48c9;
+    color: white;
+    font-size: 19px;
+    border-radius: 5px;
+    padding: 7px 14px;
+    border: 1px solid #daf1ff;
+}
+.btn-light:hover
+{
+    background-color: #4d3894;
+    color: white;
+}
+nav {
+    background-color: #ffffff;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+}
+
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: bold;
+}
+
+.icon {
+    font-size: 20px;
+    padding-right: 10px;
+    color: #000000;
+}
+.fab {
+    color: #000000;
+    font-size: 20px;
+}
+
+.home-hero {
+    background-color: #F6F5F7;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: auto 60%;
+    margin-top: 3rem;
+}
