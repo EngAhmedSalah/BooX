@@ -87,8 +87,8 @@
                         <i class="far fa-user icon"></i>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="register.html">Register</a>
-                        <a class="dropdown-item" href="login.html">Login</a>
+                        <a class="dropdown-item" href="register.jsp">Register</a>
+                        <a class="dropdown-item" href="login.jsp">Login</a>
                     </div>
                 </div>
             </li>

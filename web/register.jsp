@@ -21,13 +21,13 @@
 
 <nav class="navbar navbar-expand-sm navbar-light nav fixed-top">
     <a class="navbar-brand" href="#">
-        <img src="views/images/logo2.png" width="30" height="45" class="d-inline-block align-top" alt="">
+        <img src="views/images/logo2.svg" width="30" height="45" class="d-inline-block align-top" alt="">
         <span>BooX</span></a>
 
     <div class="container text-right">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active d-none d-md-block">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.jsp">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item d-none d-md-block">
                 <div class="inline-flex mx-4 text-lg">
@@ -87,8 +87,8 @@
                         <i class="far fa-user icon"></i>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Register</a>
-                        <a class="dropdown-item" href="#">Login</a>
+                        <a class="dropdown-item" href="register.jsp">Register</a>
+                        <a class="dropdown-item" href="login.jsp">Login</a>
                     </div>
                 </div>
             </li>
@@ -104,28 +104,27 @@
         <div class="col-sm-12 main-section">
             <div class="modal-content">
                 <div class="modal-header justify-content-center">
-                    <h1>Login</h1>
+                    <h1>Register</h1>
                 </div>
                 <div class="col-12 form-input justify-content-center mt-4">
-                    <div class="form-group" id="username">
-                        <input type="text" class="form-control" placeholder="Username">
+                    <div class="row">
+                        <div class="form-group col-6" id="firstName">
+                            <input type="text" class="form-control" placeholder="First Name">
+                        </div>
+                        <div class="form-group col-6">
+                            <input type="text" class="form-control" placeholder="Last Name">
+                        </div>
                     </div>
                     <div class="form-group" id="email">
                         <input type="email" class="form-control" placeholder="Email">
                     </div>
-                    <div class="form-group" id="password">
+                    <div class="form-group" id="password1">
                         <input type="password" class="form-control" placeholder="Password">
                     </div>
-                    <div class="row">
-                        <div class="form-check mb-2 col-6">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">remember me</label>
-                        </div>
-                        <div class="col-6">
-                            <a href="register.html" title="register">Create account</a>
-                        </div>
+                    <div class="form-group" id="password2">
+                        <input type="password" class="form-control" placeholder="Confirm Password">
                     </div>
-                    <button type="submit" class="btn btn-light">Login</button>
+                    <button type="submit" class="btn btn-light">Register</button>
                 </div>
             </div>
         </div>
@@ -192,7 +191,7 @@
                             <h3>Useful Links</h3>
                         </div>
                         <ul>
-                            <li><a href="#">Home</a></li>
+                            <li><a href="index.jsp">Home</a></li>
                             <li><a href="#">about</a></li>
                             <li><a href="#">services</a></li>
                             <li><a href="#">portfolio</a></li>
@@ -244,7 +243,7 @@
                 <div class="col-xl-4 col-lg-4 d-none d-lg-block text-right">
                     <div class="footer-menu">
                         <ul>
-                            <li><a href="#">Home</a></li>
+                            <li><a href="index.jsp">Home</a></li>
                             <li><a href="#">Terms</a></li>
                             <li><a href="#">Privacy</a></li>
                             <li><a href="#">Policy</a></li>

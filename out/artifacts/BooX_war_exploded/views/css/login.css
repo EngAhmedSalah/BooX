@@ -27,7 +27,7 @@
 {
     border:3px solid #4d3894;
 }
-#email::before , #username::before , #password::before
+#email::before , #username::before , #password1::before , #password2::before
 {
     font-family: "Font Awesome 5 Free";
     font-weight: 1000;
@@ -37,7 +37,11 @@
     color: #555e60;
 }
 
-#password::before
+#password1::before
+{
+    content: "\f023";
+}
+#password2::before
 {
     content: "\f023";
 }
@@ -118,4 +122,8 @@ nav {
     background-repeat: no-repeat;
     background-size: auto 60%;
     margin-top: 3rem;
+}
+.dropdown-menu
+{
+    min-width: 4rem;
 }
