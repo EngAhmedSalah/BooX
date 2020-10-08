@@ -80,7 +80,17 @@ body {
 {
     background-color: #ffffff;
     border-radius: 20px;
-    width: 100%;
+    width: 94%;
+    margin:-7% 4% 0% 4%;
+}
+
+
+.searchRes
+{
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 50%;
+    margin: 10% 4% 0% 4%;
 }
 
 p
@@ -132,9 +142,21 @@ p
     position: relative;
     right: 35px
 }
+.products
+{
+    margin-top: 5%;
+}
 
 .btn:focus
 {
     outline: none;
     box-shadow: none
+}
+
+.searchRes
+{
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 50%;
+    margin: 10% 4% 0% 4%;
 }
