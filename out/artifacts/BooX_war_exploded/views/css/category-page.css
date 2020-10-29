@@ -1,0 +1,162 @@
+
+.modal-content
+{
+    background-color: #F6F5F7;
+    opacity: .8;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+nav
+{
+    background-color: #ffffff;
+}
+
+body {
+    background-color: #F6F5F7;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+}
+
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px)
+{
+    .navbar a
+    {
+        float: none;
+        display: block;
+    }
+}
+
+.navbar-brand
+{
+    font-size: 30px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: bold;
+}
+
+.icon
+{
+    font-size: 20px;
+    padding-right: 10px;
+    color: #000000;
+}
+
+.fab
+{
+    color: #000000;
+    font-size: 20px;
+}
+#categories::before
+{
+    content: "\f023";
+}
+.dropdown-menu
+{
+    min-width: 4rem;
+}
+
+.navbar.second-navbar
+{
+    margin-top: 60px;
+    background: #573BA3 !important;
+    transition: all .5s ease-in-out;
+    z-index: 1;
+}
+
+.navbar.second-navbar.top-nav-collapse
+{
+    margin-top: 45px;
+    z-index: 0;
+}
+
+.card
+{
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 94%;
+    margin:-7% 4% 0% 4%;
+}
+
+
+.searchRes
+{
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 50%;
+    margin: 10% 4% 0% 4%;
+}
+
+p
+{
+    color: #b7b1b1;
+    font-weight: 500
+}
+
+.discBtn
+{
+    background-color: #573BA3;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+.discBtn:focus
+{
+    background-color: black;
+}
+
+.fa-heart
+{
+    color: #f05c5d
+}
+
+.fa-balance-scale
+{
+    color: #968888
+}
+
+.fa-arrows
+{
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg)
+}
+
+.buy
+{
+    border-radius: 20px;
+    background-color: #e8f6f6;
+    color: #573BA3
+}
+
+.cart
+{
+    background-color: #573BA3;
+    border-radius: 30px;
+    position: relative;
+    right: 35px
+}
+.products
+{
+    margin-top: 5%;
+}
+
+.btn:focus
+{
+    outline: none;
+    box-shadow: none
+}
+
+.searchRes
+{
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 50%;
+    margin: 10% 4% 0% 4%;
+}

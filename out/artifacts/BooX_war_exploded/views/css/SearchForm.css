@@ -1,0 +1,221 @@
+form > .textbox
+{
+    outline: 0;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 16px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #212121;
+    border: 0;
+    float: left;
+    -webkit-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+}
+
+form > .textbox:focus {
+    outline: 0;
+    background-color: #FFF;
+}
+
+form > .button
+{
+    outline: 0;
+    background: rgba(38, 50, 56, 0.8) none;
+    float: left;
+    height: 42px;
+    width: 42px;
+    text-align: center;
+    line-height: 42px;
+    border: 0;
+    color: #FFF;
+    font-size: 16px;
+    text-rendering: auto;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition: background-color .4s ease;
+    transition: background-color .4s ease;
+    -webkit-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+}
+
+form > .button:hover
+{
+    background-color: rgba(0, 150, 136, 0.8);
+}
+input[type=text]
+{
+    width: 80px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 90%;
+}
+button[type=submit]:focus {
+    width: 5%;
+}
+
+.modal-content
+{
+    background-color: #F6F5F7;
+    opacity: .8;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+nav
+{
+    background-color: #ffffff;
+}
+
+body {
+    background-color: #F6F5F7;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+}
+
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px)
+{
+    .navbar a
+    {
+        float: none;
+        display: block;
+    }
+}
+
+.navbar-brand
+{
+    font-size: 30px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: bold;
+}
+
+.icon
+{
+    font-size: 20px;
+    padding-right: 10px;
+    color: #000000;
+}
+
+.fab
+{
+    color: #000000;
+    font-size: 20px;
+}
+#categories::before
+{
+    content: "\f023";
+}
+.dropdown-menu
+{
+    min-width: 4rem;
+}
+
+.navbar.second-navbar
+{
+    margin-top: 60px;
+    background: #573BA3 !important;
+    transition: all .5s ease-in-out;
+    z-index: 1;
+}
+
+.navbar.second-navbar.top-nav-collapse
+{
+    margin-top: 45px;
+    z-index: 0;
+}
+
+.card
+{
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 94%;
+    margin:-7% 4% 0% 4%;
+}
+
+
+.searchRes
+{
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 50%;
+    margin: 10% 4% 0% 4%;
+}
+
+p
+{
+    color: #b7b1b1;
+    font-weight: 500
+}
+
+.discBtn
+{
+    background-color: #573BA3;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+.discBtn:focus
+{
+    background-color: black;
+}
+
+.fa-heart
+{
+    color: #f05c5d
+}
+
+.fa-balance-scale
+{
+    color: #968888
+}
+
+.fa-arrows
+{
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg)
+}
+
+.buy
+{
+    border-radius: 20px;
+    background-color: #e8f6f6;
+    color: #573BA3
+}
+
+.cart
+{
+    background-color: #573BA3;
+    border-radius: 30px;
+    position: relative;
+    right: 35px
+}
+
+.btn:focus
+{
+    outline: none;
+    box-shadow: none
+}
+.products
+{
+    margin-top: 10%;
+}
+
+.vertical-line
+{
+    border-left: 1px solid #ccc;
+    height: 125px;
+}
+.form-control
+{
+    width: 50%;
+}
